@@ -7,18 +7,39 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Imagem de Fundo</title>
     <style>
+
+        header {
+            background-image: linear-gradient(to left, rgb(230, 230, 145), rgb(143, 229, 143));
+            padding: 2px;
+            margin: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            color: brown;
+            border-radius: 15px;
+            box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.406);
+        }
+
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-repeat: no-repeat;
             background-position: center center;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+              color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,8 +48,12 @@
     </style>
 </head>
 <body>
+    <header>Estudos sedimentários</header>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et earum, id impedit rerum quia consequatur tempore hic ducimus saepe ab quas deleniti dolorum esse voluptatibus laborum officia incidunt, soluta quae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequuntur, voluptatem praesentium officia placeat iste voluptas laudantium rem? Voluptatem ullam quas quam animi magni et soluta ea accusamus delectus illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quasi aspernatur cumque. Ipsum, velit rerum sunt repellendus minus quo doloribus recusandae odio eum nobis fugiat corporis quisquam nesciunt in voluptas.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et earum, id impedit rerum quia consequatur tempore hic ducimus saepe ab quas deleniti dolorum esse voluptatibus laborum officia incidunt, soluta quae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequuntur, voluptatem praesentium officia placeat iste voluptas laudantium rem? Voluptatem ullam quas quam animi magni et soluta ea accusamus delectus illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quasi aspernatur cumque. Ipsum, velit rerum sunt repellendus minus quo doloribus recusandae odio eum nobis fugiat corporis quisquam nesciunt in voluptas.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et earum, id impedit rerum quia consequatur tempore hic ducimus saepe ab quas deleniti dolorum esse voluptatibus laborum officia incidunt, soluta quae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequuntur, voluptatem praesentium officia placeat iste voluptas laudantium rem? Voluptatem ullam quas quam animi magni et soluta ea accusamus delectus illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quasi aspernatur cumque. Ipsum, velit rerum sunt repellendus minus quo doloribus recusandae odio eum nobis fugiat corporis quisquam nesciunt in voluptas.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et earum, id impedit rerum quia consequatur tempore hic ducimus saepe ab quas deleniti dolorum esse voluptatibus laborum officia incidunt, soluta quae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequuntur, voluptatem praesentium officia placeat iste voluptas laudantium rem? Voluptatem ullam quas quam animi magni et soluta ea accusamus delectus illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quasi aspernatur cumque. Ipsum, velit rerum sunt repellendus minus quo doloribus recusandae odio eum nobis fugiat corporis quisquam nesciunt in voluptas.</p>
     </main>
     
