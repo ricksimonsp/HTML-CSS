@@ -14,15 +14,25 @@
 </head>
 <body>
     <h1>Primeiro Formulário</h1>
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="get">
         <p><label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome"></p>
 
         <p><label for="isobrenome">Sobrenome: </label>
             <input type="text" name="sobrenome" id="isobrenome"></p>
         
+        <p><label for="iuser">Nome de usuário: </label>
+            <input type="text" name="user" id="iuser"></p>
+
+        <p><label for="ipass">Senha: </label>
+            <input type="password" name="pass" id="ipass"></p>
+
         <p><input type="submit" value="Enviar"></p>
-    </form>
+
+        </form>
+
+    
+
     
 </body>
 </html>
