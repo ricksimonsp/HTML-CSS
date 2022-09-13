@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Mais Formulários</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: cornsilk;
+            color: brown;
+        }
+
+        button {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.417);
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Outro exemplo de Formulário, outro meu Deus!</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" value="M" checked><label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isfem" value="F"><label for="isfem">Feminino</label> <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esfut" id="iesfut" checked>
+            <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"><label for="iesten">Tênis</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        <button type="submit" value="Enviar">Enviar</button>
+        <button type="reset" value="Limpar">Limpar</button>
+    </form>
+    
+</body>
+</html>
