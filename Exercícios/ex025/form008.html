@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Só por Jesus</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        fieldset {
+            background-color: bisque;
+            margin-left: 10px;
+            margin-right: 70vw;
+        }
+
+        legend {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Advinha? Mais formulários, oh meu Senhor da Glória!!!</h1>
+    <fieldset>
+        <legend>Output</legend>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="in1">Número 1: </label>
+                <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+
+            <p>
+                <label for="in2">Número 2: </label>
+                <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+
+            <p>
+                <label for="isoma">Soma: </label>
+                <output id="isoma">0</output>
+            </p>
+            
+            
+            
+            
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
