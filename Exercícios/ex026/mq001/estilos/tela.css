@@ -1,0 +1,45 @@
+@charset "UFT-8";
+
+/*Estilo para Telas*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style: none;
+    background-color: burlywood;
+}
+
+menu li {
+    
+    display: inline-block;
+    padding: 10px;
+}
+
+menu li:hover {
+    color: brown;
+    font-weight: bolder;
+    
+}
+
+article {
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+}
