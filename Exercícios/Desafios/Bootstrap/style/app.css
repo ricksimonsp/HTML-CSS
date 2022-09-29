@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(200, 233, 244);
+}
+
+a.navbar-brand {
+    font-weight: 500;
+}
+
+a#hover {
+    font-weight: 500;
+}
+
+a#hover:hover {
+    color: white;
+   
+    
+}
